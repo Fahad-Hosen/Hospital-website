@@ -1,6 +1,7 @@
 import Footer from './Components/Footer/Footer';
 import Header from './Components/Header/Header';
 import Main from './Components/Main/Main';
+import Flowbutton from './Components/UI/Flowbutton'
 
 function App() {
   return (
@@ -8,6 +9,7 @@ function App() {
       <Header />
       <Main />
       <Footer />
+      <Flowbutton/>
     </div>
   );
 }
